@@ -5,17 +5,13 @@ import Typewriter from 'typewriter-effect'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
 import image from './image/uwu.jpg'
-import css from './image/css.png'
-import js from './image/js.png'
-import html from './image/html.png'
-import react from './image/react.png'
-import nodejs from './image/nodejs.png'
-import git from './image/git.webp'
-import github from './image/github.png'
+
+
+import About from './components/About';
 function App() {
 
   const Home = useRef(null);
-  const About = useRef(null);
+  const aboutPage = useRef(null);
   const Project = useRef(null);
   const Contact = useRef(null);
 
@@ -36,7 +32,7 @@ function App() {
           <a href="#logo" className='logo'>logo</a>
           <nav>
             <a href="#home" onClick={() => scrollToElement(Home)}>Home</a>
-            <a href="#about" onClick={() => scrollToElement(About)}>About</a>
+            <a href="#about" onClick={() => scrollToElement(aboutPage)}>About</a>
             <a href="#project" onClick={() => scrollToElement(Project)}>Project</a>
             <a href="#contact" onClick={() => scrollToElement(Contact)}>Contact</a>
           </nav>
@@ -75,95 +71,8 @@ function App() {
             <img className='image' src={image} alt="" />
           </div>
         </section>
-        <section ref={About}>
-          <div className='about-image'>
-
-          </div>
-          <div className='aboutme'>
-            <h2 className='about-me'>About Me</h2>
-            <p>Welcome to my portfolio! I'm Romnick San Juan,
-              a passionate and dedicated web developer and software engineer with a solid understanding in languages
-              like HTML, CSS, JavaScript, and proficiency in frameworks such as React and Node.js,
-              i am confident that i can be a valuable asset to any web development team. </p>
-
-            <h2 className='what-i-do'>What i do</h2>
-            <p>
-              What I Do
-              I specialize in crafting responsive and user-friendly websites and applications that not
-              only look great but also perform exceptionally well. Whether it's building sleek user interfaces,
-              optimizing database performance, or troubleshooting complex bugs,
-              I approach every project with enthusiasm and a keen eye for detail.
-            </p>
-          
-          <div className='skills'>
-          <h3>Tech Stack</h3>
-          <img style={{
-            height:'50px',
-            width:'50px',
-            padding:'5px',
-            backgroundColor:'white',
-            borderRadius:'50%',
-            margin:'5px 10px'
-          }} src={html} alt="" />
-          <img style={{
-            height:'50px',
-            width:'50px',
-            padding:'5px',
-            backgroundColor:'white',
-            borderRadius:'50%',
-            margin:'5px 10px'
-          }} src={css} alt="" />
-          <img style={{
-            height:'50px',
-            width:'50px',
-            padding:'5px',
-            backgroundColor:'white',
-            borderRadius:'50%',
-            margin:'5px 10px'
-          }} src={js} alt="" />
-          </div>
-
-          <div className='skills'>
-          <h3>Framework</h3>
-          <img style={{
-            height:'50px',
-            width:'50px',
-            padding:'5px',
-            backgroundColor:'white',
-            borderRadius:'50%',
-            margin:'5px 10px'
-          }} src={react} alt="" />
-          <img style={{
-            height:'50px',
-            width:'50px',
-            padding:'5px',
-            backgroundColor:'white',
-            borderRadius:'50%',
-            margin:'5px 10px'
-          }} src={nodejs} alt="" />
-          </div>
-
-          <div className='skills'>
-          <h3>Tools</h3>
-          <img style={{
-            height:'50px',
-            width:'50px',
-            padding:'5px',
-            backgroundColor:'white',
-            borderRadius:'50%',
-            margin:'5px 10px'
-          }} src={git} alt="" />
-          <img style={{
-            height:'50px',
-            width:'50px',
-            padding:'5px',
-            backgroundColor:'white',
-            borderRadius:'50%',
-            margin:'5px 10px'
-          }} src={github} alt="" />
-          </div>
-            
-          </div>
+        <section ref={aboutPage}>
+          <About/>
         </section>
         <section ref={Project}>
           <h2>Project Section</h2>

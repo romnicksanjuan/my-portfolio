@@ -48,7 +48,7 @@ nav a {
 }
 
 section {
-  max-height: 1200px;
+  /* max-height: 1200px; */
   /* Just for demonstration */
   background: #333;
   padding: 20px;
@@ -56,6 +56,7 @@ section {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  /* margin-top: 20px; */
 }
 
 .name {
@@ -98,7 +99,7 @@ p {
 
 .about-image,
 .aboutme {
-  height: 500px;
+  height: auto;
   width: 500px;
   padding: 10px;
   margin: 5px;
