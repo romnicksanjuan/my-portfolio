@@ -46,8 +46,9 @@ nav a {
   margin: 5px;
   font-size: 1.2rem;
 }
+
 section {
-  height: 1000px;
+  max-height: 1200px;
   /* Just for demonstration */
   background: #333;
   padding: 20px;
@@ -56,35 +57,65 @@ section {
   align-items: center;
   height: 100vh;
 }
+
 .name {
   padding: 20px;
   width: 500px;
   /* text-align: center; */
 }
-.image-container{
+
+.image-container {
   padding: 20px;
   width: 500px;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
-.image{
+
+.image {
   border-radius: 50%;
   height: 350px;
   width: 350px;
 }
-.intro{
+
+.intro {
   color: white;
 }
-.texts{
+
+.texts {
   color: orange;
   margin-bottom: 10px;
 }
-p{
+
+p {
   color: white;
   margin-bottom: 10px;
 }
 
-.icons{
+.icons {
   display: flex;
   justify-content: center;
+}
+
+.about-image,
+.aboutme {
+  height: 500px;
+  width: 500px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.skills{
+  padding: 10px 0;
+  margin: 10px 0;
+
+}
+
+.about-me,
+.what-i-do {
+  color: white;
+  padding: 10px 0;
+}
+
+h3{
+  color: white;
 }
