@@ -1,6 +1,9 @@
+.about-main{
+    width: auto;
+}
 .sub-main{
     background: #2c2929;
-    margin-top: 80px;
+    margin-top: 40px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -13,7 +16,39 @@
     justify-content: center;
 }
 
-.tech-stack{
-    display: grid;
-    place-items: center;
+.about-image,
+.aboutme {
+  height: auto;
+  width: 50%;
+  padding: 10px;
+  margin: 5px;
 }
+.skills{
+
+}
+.tech-stack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+
+}
+.images{
+    border: 1px solid gray;
+    width: 150px;
+}
+li{
+    padding: 5px;
+    list-style-type: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h4{
+    color: white;
+}
+

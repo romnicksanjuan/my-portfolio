@@ -40,73 +40,85 @@ const About = () => {
 
 
                 <div className='tech-stack'>
-                    <div className='skills'>
-                        <h3>Tech Stack</h3>
-                        <img style={{
-                            height: '50px',
-                            width: '50px',
-                            padding: '5px',
-                            backgroundColor: 'white',
-                            borderRadius: '50%',
+
+                <div className='images'>
+                <li>
+                    <img style={{
+                            height: '30px',
+                            width: '30px',
                             margin: '5px 10px'
                         }} src={html} alt="" />
-                        <img style={{
-                            height: '50px',
-                            width: '50px',
-                            padding: '5px',
-                            backgroundColor: 'white',
-                            borderRadius: '50%',
+                        <h4>HTML</h4>
+                    </li>
+                </div>
+
+                <div className='images'>
+                <li>
+                    <img style={{
+                            height: '30px',
+                            width: '30px',
                             margin: '5px 10px'
                         }} src={css} alt="" />
-                        <img style={{
-                            height: '50px',
-                            width: '50px',
-                            padding: '5px',
-                            backgroundColor: 'white',
-                            borderRadius: '50%',
+                        <h4>CSS</h4>
+                    </li>
+                </div>
+
+                <div className='images'>
+                <li>
+                    <img style={{
+                            height: '30px',
+                            width: '30px',
                             margin: '5px 10px'
                         }} src={js} alt="" />
-                    </div>
+                        <h4>JavaScript</h4>
+                    </li>
+                </div>
 
-                    <div className='skills'>
-                        <h3>Framework</h3>
-                        <img style={{
-                            height: '50px',
-                            width: '50px',
-                            padding: '5px',
-                            backgroundColor: 'white',
-                            borderRadius: '50%',
+                <div className='images'>
+                <li>
+                    <img style={{
+                            height: '30px',
+                            width: '30px',
                             margin: '5px 10px'
                         }} src={react} alt="" />
-                        <img style={{
-                            height: '50px',
-                            width: '50px',
-                            padding: '5px',
-                            backgroundColor: 'white',
-                            borderRadius: '50%',
+                        <h4>React</h4>
+                    </li>
+                </div>
+
+                <div className='images'>
+                <li>
+                    <img style={{
+                            height: '30px',
+                            width: '30px',
                             margin: '5px 10px'
                         }} src={nodejs} alt="" />
-                    </div>
+                        <h4>Node js</h4>
+                    </li>
+                </div>
 
-                    <div className='skills'>
-                        <h3>Tools</h3>
-                        <img style={{
-                            height: '50px',
-                            width: '50px',
-                            padding: '5px',
-                            backgroundColor: 'white',
-                            borderRadius: '50%',
-                            margin: '5px 10px'
-                        }} src={git} alt="" />
-                        <img style={{
-                            height: '50px',
-                            width: '50px',
-                            padding: '5px',
-                            backgroundColor: 'white',
-                            borderRadius: '50%',
+                <div className='images'>
+                <li>
+                    <img style={{
+                            height: '30px',
+                            width: '30px',
                             margin: '5px 10px'
                         }} src={github} alt="" />
-                    </div>
+                        <h4>Git Hub</h4>
+                    </li>
+                </div>
+
+                <div className='images'>
+                <li>
+                    <img style={{
+                            height: '30px',
+                            width: '30px',
+                            margin: '5px 10px'
+                        }} src={git} alt="" />
+                        <h4>Git</h4>
+                    </li>
+                </div>
+                        
+                        
                 </div>
 
             </div>

@@ -71,8 +71,9 @@ function App() {
             <img className='image' src={image} alt="" />
           </div>
         </section>
-        <section ref={aboutPage}>
+        <section ref={aboutPage}> 
           <About/>
+          
         </section>
         <section ref={Project}>
           <h2>Project Section</h2>
