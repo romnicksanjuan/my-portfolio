@@ -4,7 +4,7 @@ import './App.css'
 import Typewriter from 'typewriter-effect'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
-import image from './image/uwu.jpg'
+import me from './image/me.jpg'
 
 
 import About from './components/About';
@@ -68,7 +68,7 @@ function App() {
 
           </div>
           <div className="image-container">
-            <img className='image' src={image} alt="" />
+            <img className='image' src={me} alt="" />
           </div>
         </section>
         <section ref={aboutPage}> 
