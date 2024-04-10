@@ -1,0 +1,40 @@
+.contact-main{
+    width: 100%;
+    background: #2c2929;
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    border-radius: 5px;
+}
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* place-items: center; */
+    width: 80%;
+    
+}
+.items{
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+.item{
+    height: 40px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+textarea{
+    padding: 10px;
+    resize: both;
+    min-height: 150px;
+    height: auto;
+    min-width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}

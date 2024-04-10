@@ -8,12 +8,13 @@ import me from './image/me.jpg'
 
 
 import About from './components/About';
+import Contact from './components/Contact';
 function App() {
 
-  const Home = useRef(null);
+  const home = useRef(null);
   const aboutPage = useRef(null);
-  const Project = useRef(null);
-  const Contact = useRef(null);
+  const project = useRef(null);
+  const contact = useRef(null);
 
   const scrollToElement = (element) => {
     element.current.scrollIntoView({
@@ -31,14 +32,14 @@ function App() {
         <header>
           <a href="#logo" className='logo'>logo</a>
           <nav>
-            <a href="#home" onClick={() => scrollToElement(Home)}>Home</a>
+            <a href="#home" onClick={() => scrollToElement(home)}>Home</a>
             <a href="#about" onClick={() => scrollToElement(aboutPage)}>About</a>
-            <a href="#project" onClick={() => scrollToElement(Project)}>Project</a>
-            <a href="#contact" onClick={() => scrollToElement(Contact)}>Contact</a>
+            <a href="#project" onClick={() => scrollToElement(project)}>Project</a>
+            <a href="#contact" onClick={() => scrollToElement(contact)}>Contact</a>
           </nav>
         </header>
 
-        <section ref={Home}>
+        <section ref={home}>
           <div className="name">
             <h2 className='intro'>Hi, im Romnick San Juan</h2>
             <h1 className='texts'>
@@ -71,15 +72,15 @@ function App() {
             <img className='image' src={me} alt="" />
           </div>
         </section>
-        <section ref={aboutPage}> 
-          <About/>
-          
+        <section ref={aboutPage}>
+          <About />
+
         </section>
-        <section ref={Project}>
+        <section ref={project}>
           <h2>Project Section</h2>
         </section>
-        <section ref={Contact}>
-          <h2>Contact Section</h2>
+        <section ref={contact}>
+          <Contact />
         </section>
       </div>
     </>
