@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
 
         <div className='items'>
-          <input type="text" className='item' placeholder='Email Subject'  />
+          <input type="email" className='item' placeholder='Email Subject'  />
         </div>
       </div>
     </div>

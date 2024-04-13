@@ -21,7 +21,7 @@ const About = () => {
             <div className='about-main'>
                 <div className='sub-main'>
                     <div className='about-image'>
-                        <img style={{ height: '300px', width: '300px', borderRadius: '50%' }} src={me} alt="" />
+                        <img style={{ height: 'auto', width: '100%', borderRadius: '50%' }} src={me} alt="" />
                     </div>
                     <div className='aboutme'>
                         <h2 className='about-me'>About Me</h2>

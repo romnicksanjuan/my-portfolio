@@ -77,8 +77,8 @@ section {
 
 .image {
   border-radius: 50%;
-  height: 350px;
-  width: 350px;
+  height:auto;
+  width: 100%;
 }
 
 .intro {
