@@ -21,12 +21,12 @@ const About = () => {
             <div className='about-main'>
                 <div className='sub-main'>
                     <div className='about-image'>
-                        <img style={{ height: 'auto', width: '100%', borderRadius: '50%' }} src={me} alt="" />
+                        <img style={{ height: 'auto', width: '80%', borderRadius: '50%' }} src={me} alt="" />
                     </div>
                     <div className='aboutme'>
                         <h2 className='about-me'>About Me</h2>
                         <p>Welcome to my portfolio! I'm Romnick San Juan,
-                            a passionate and dedicated web developer and software engineer with a solid understanding in languages
+                            a passionate and dedicated web and mobile developer with a solid understanding in languages
                             like HTML, CSS, JavaScript, and proficiency in frameworks such as React and Node.js,
                             i am confident that i can be a valuable asset to any web development team. </p>
 

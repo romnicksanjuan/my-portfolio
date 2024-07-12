@@ -24,13 +24,13 @@ function App() {
 
 
   // const texts = ['Programmer', 'Web Developer']
-  const texts = ['Programmer', 'Web Developer'];
+  const texts = ['Programmer', 'Web Developer', 'Mobile Developer'];
 
   return (
     <>
       <div>
         <header>
-          <a href="#logo" className='logo'>logo</a>
+          <a href="#logo" className='logo'>Nick.dev</a>
           <nav>
             <a href="#home" onClick={() => scrollToElement(home)}>Home</a>
             <a href="#about" onClick={() => scrollToElement(aboutPage)}>About</a>
@@ -53,7 +53,11 @@ function App() {
               />
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I am a passionate web and mobile developer with over 1 year of
+              experience in building scalable applications. I specialize in React
+              Native and Expo for mobile development
+              and have a strong background in full-stack web
+              development using React and Node.js.
             </p>
             <div className='icons'>
               <a href="https://web.facebook.com/romnick.sanjuan.3"><FaFacebook size={30} style={{
