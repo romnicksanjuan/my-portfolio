@@ -10,10 +10,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (name === '' || email === '' || message === '') {
+      alert('Please fill all fields')
+      return;
+    }
+
     const serviceId = 'service_o3jlica'
     const templateId = 'template_2a9i2tr'
     const publicKey = 'qF0SPfgPtEeerxnOs'
-
     const templateParams = {
       from_name: name,
       from_email: email,
