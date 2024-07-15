@@ -28,7 +28,7 @@
 }
 
 .skill{
-    color: white;
+    color: #3fa2f6;
     margin-bottom: 15px;
 }
 
@@ -67,6 +67,10 @@ h4{
 }
 
 .tech-tools{
-    color: whitesmoke;
+    color: #3fa2f6;
+}
+
+.about-me, .what-i-do{
+    color: #3fa2f6;
 }
 

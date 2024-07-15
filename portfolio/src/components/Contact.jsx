@@ -47,7 +47,7 @@ const Contact = () => {
     <div>
       <form  onSubmit={sendEmail}>
         <h2 style={{
-          textAlign: 'center', color: 'white',
+          textAlign: 'center', color: '#3fa2f6',
           margin: '10px', fontSize: "2rem", marginBottom: '15px'
         }}>Contact Me</h2>
         <div className='contact-main'>
@@ -69,7 +69,7 @@ const Contact = () => {
         </div>
         <div style={{width:'100%',display:'flex',justifyContent:'center'}}>
         <button style={{alignItems:'center',display:'flex',justifyContent:'center',height:'40px',
-           width:'30%',backgroundColor:'orange',color:'white',borderRadius:'5px'}} type='submit'>Send</button>
+           width:'30%',backgroundColor:'#3fa2f6',color:'white',borderRadius:'5px'}} type='submit'>Send</button>
         </div>
       </form>
     </div>

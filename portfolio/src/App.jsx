@@ -30,7 +30,7 @@ function App() {
     <>
       <div>
         <header>
-          <a href="#logo" className='logo'>Nick.dev</a>
+          <a href="#logo" className='logo'>Nick<span style={{color:'#3fa2f6'}}>.dev</span></a>
           <nav>
             <a href="#home" onClick={() => scrollToElement(home)}>Home</a>
             <a href="#about" onClick={() => scrollToElement(aboutPage)}>About</a>
@@ -41,7 +41,7 @@ function App() {
 
         <section ref={home}>
           <div className="name">
-            <h2 className='intro'>Hi, im Romnick San Juan</h2>
+            <h2 className='intro'>Hi, its Romnick San Juan</h2>
             <h1 className='texts'>
               <Typewriter
                 options={{
@@ -61,12 +61,12 @@ function App() {
             </p>
             <div className='icons'>
               <a href="https://web.facebook.com/romnick.sanjuan.3"><FaFacebook size={30} style={{
-                color: 'white',
+                color: '#3fa2f6',
                 margin: '0 5px'
               }} /></a>
 
               <FaInstagram size={30} style={{
-                color: 'white',
+                color: '#3fa2f6',
                 margin: '0 5px'
               }} />
             </div>

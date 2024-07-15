@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #333;
+  background-color: #000000;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
   z-index: 100;
   top: 0;
   right: 0;
-  background-color: #333;
+  background-color: #000000;
 }
 
 .logo {
@@ -51,7 +51,7 @@ nav a {
 section {
   /* max-height: 1200px; */
   /* Just for demonstration */
-  background: #333;
+  background: #000000;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@ section {
 }
 
 .texts {
-  color: orange;
+  color: #3fa2f6;
   margin-bottom: 10px;
 }
 
