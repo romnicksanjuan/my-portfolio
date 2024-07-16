@@ -1,32 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
 .contact-main{
     width: 100%;
-    background: #2c2929;
+    /* background: #2c2929; */
     justify-content: center;
     display: flex;
-    padding: 40px;
+    align-items: center;
+    /* padding: 40px; */
     border-radius: 5px;
 }
 .item-container{
-    display: flex;
-    flex-wrap: wrap;
-    /* place-items: center; */
-    width: 80%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.contact-item{
+    padding: 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    /* place-items: center; */
+    /* margin: 0 auto; */
+}
+.contact{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .items{
-    height: 50px;
+    /* height: 50px; */
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    /* width: 350px; */
+    
+
 }
 .item{
     height: 40px;
-    width: 350px;
+    width: 250px;
     padding: 10px;
+    background-color: black;
     border-radius: 5px;
-    border:1px solid gray;
+    /* border:1px solid gray; */
+    color: aliceblue;
+}
+.item::placeholder{
+    color: whitesmoke;
 }
 textarea{
     padding: 10px;
@@ -35,5 +65,6 @@ textarea{
     height: auto;
     min-width: 100%;
     border-radius: 5px;
+    background-color: black;
     
 }

@@ -8,6 +8,7 @@ import js from '../image/js.png'
 import html from '../image/html.png'
 import react from '../image/react.png'
 import nodejs from '../image/nodejs.png'
+import react_native from '../image/react-native.png'
 
 
 //tool
@@ -15,6 +16,7 @@ import vscode from '../image/vscode.png'
 import vercel from '../image/vercel.avif'
 import git from '../image/git.webp'
 import github from '../image/github.png'
+import expo from '../image/expo.jpg'
 const About = () => {
     return (
         <>
@@ -101,6 +103,17 @@ const About = () => {
                                     <h4>Node js</h4>
                                 </li>
                             </div>
+
+                            <div className='images'>
+                                <li>
+                                    <img style={{
+                                        height: '30px',
+                                        width: '33px',
+                                        margin: '5px 10px'
+                                    }} src={react_native} alt="" />
+                                    <h4>React Native</h4>
+                                </li>
+                            </div>
                         </div>
                     </div>
 
@@ -148,6 +161,17 @@ const About = () => {
                                         margin: '5px 10px'
                                     }} src={vscode} alt="" />
                                     <h4>Vscode</h4>
+                                </li>
+                            </div>
+
+                            <div className='images'>
+                                <li>
+                                    <img style={{
+                                        height: '30px',
+                                        width: '30px',
+                                        margin: '5px 10px'
+                                    }} src={expo} alt="" />
+                                    <h4>Expo</h4>
                                 </li>
                             </div>
                         </div>

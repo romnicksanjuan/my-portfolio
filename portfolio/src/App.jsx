@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import './App.css'
 
 import Typewriter from 'typewriter-effect'
-import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTiktok,FaTwitter } from 'react-icons/fa'
 
 import me from './image/me.jpg'
 
@@ -30,12 +30,12 @@ function App() {
     <>
       <div>
         <header>
-          <a href="#logo" className='logo'>Nick<span style={{color:'#3fa2f6'}}>.dev</span></a>
+          <a href="#logo" className='logo'>Nick<span style={{ color: '#9BEC00' }}>.dev</span></a>
           <nav>
-            <a href="#home" onClick={() => scrollToElement(home)}>Home</a>
-            <a href="#about" onClick={() => scrollToElement(aboutPage)}>About</a>
-            <a href="#project" onClick={() => scrollToElement(project)}>Project</a>
-            <a href="#contact" onClick={() => scrollToElement(contact)}>Contact</a>
+            <a id='home' href="#home" onClick={() => scrollToElement(home)}>Home</a>
+            <a id='about' href="#about" onClick={() => scrollToElement(aboutPage)}>About</a>
+            <a id='project' href="#project" onClick={() => scrollToElement(project)}>Project</a>
+            <a id='contact' href="#contact" onClick={() => scrollToElement(contact)}>Contact</a>
           </nav>
         </header>
 
@@ -60,15 +60,24 @@ function App() {
               development using React and Node.js.
             </p>
             <div className='icons'>
-              <a href="https://web.facebook.com/romnick.sanjuan.3"><FaFacebook size={30} style={{
-                color: '#3fa2f6',
-                margin: '0 5px'
+              <a id='facebook' href="https://web.facebook.com/romnick.sanjuan.3"><FaFacebook size={27} style={{
+                color: '#9BEC00',
+                margin: '0 10px'
+              }} /></a>
+              <a href="" id='instagram'><FaInstagram size={27} style={{
+                color: '#9BEC00',
+                margin: '0 10px'
               }} /></a>
 
-              <FaInstagram size={30} style={{
-                color: '#3fa2f6',
-                margin: '0 5px'
-              }} />
+              <a href=""><FaTiktok size={27} style={{
+                color: '#9BEC00',
+                margin: '0 10px'
+              }} /></a>
+
+              <a href=""><FaTwitter size={27} style={{
+                color: '#9BEC00',
+                margin: '0 10px'
+              }} /></a>
             </div>
 
           </div>
