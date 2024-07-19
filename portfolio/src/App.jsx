@@ -8,6 +8,7 @@ import me from './image/me.jpg'
 
 
 import About from './components/About';
+import Project from './components/Project';
 import Contact from './components/Contact';
 function App() {
 
@@ -90,7 +91,7 @@ function App() {
 
         </section>
         <section ref={project}>
-          <h2>Project Section</h2>
+          <Project />
         </section>
         <section ref={contact}>
           <Contact />
