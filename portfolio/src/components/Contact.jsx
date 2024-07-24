@@ -88,7 +88,7 @@ const Contact = () => {
             <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
               <button style={{
                 alignItems: 'center', display: 'flex', justifyContent: 'center', height: '40px',
-                width: '30%', backgroundColor: '#9BEC00', color: 'white', borderRadius: '5px', marginTop: '20px'
+                width: '30%', backgroundColor: '#9BEC00', color: 'white', borderRadius: '5px', marginTop: '20px',border:'none'
               }} type='submit'>Send</button>
             </div>
           </div>
