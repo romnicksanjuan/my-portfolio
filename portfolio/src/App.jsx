@@ -62,7 +62,7 @@ function App() {
             </p>
             <div className='icons'>
               <button style={{ width: '125px', height: '30px', borderRadius: '20px', backgroundColor: '#9BEC00', border: 'none' }}>
-                <a id='facebook' href="https://drive.google.com/file/d/1i5EJOvSnkOIygUX0JLyK8-IvUo_nGdyl/view?usp=sharing"
+                <a id='facebook' href="https://drive.google.com/file/d/1vWsLAvJQu41MYCu_0syEzuZeC7kRrCOG/view?usp=sharing"
                   style={{ textDecoration: 'none', color: 'blwack', fontSize: '14px', fontWeight: 'bold' }}>Download CV</a>
               </button>
 
