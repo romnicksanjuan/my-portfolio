@@ -1,17 +1,19 @@
 .project-image{
-    width: 40%;
-    height: 600px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .project-container{
-    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: auto;
-    margin: 50px;
 }
 .project-inner-container{
-    padding: 20px;
 }
 .explore-button{
     width: 150px;
@@ -20,4 +22,6 @@
     border: none;
     color: white;
     border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
 }

@@ -2,9 +2,9 @@ import { useRef } from 'react';
 import './App.css'
 
 import Typewriter from 'typewriter-effect'
-import { FaFacebook, FaInstagram, FaTiktok,FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTiktok, FaTwitter } from 'react-icons/fa'
 
-import me from './image/me.jpg'
+import me from './image/profile.jpeg'
 
 
 import About from './components/About';
@@ -61,6 +61,11 @@ function App() {
               development using React and Node.js.
             </p>
             <div className='icons'>
+              <button style={{ width: '125px', height: '30px', borderRadius: '20px', backgroundColor: '#9BEC00', border: 'none' }}>
+                <a id='facebook' href="https://drive.google.com/file/d/1i5EJOvSnkOIygUX0JLyK8-IvUo_nGdyl/view?usp=sharing"
+                  style={{ textDecoration: 'none', color: 'blwack', fontSize: '14px', fontWeight: 'bold' }}>Download CV</a>
+              </button>
+
               <a id='facebook' href="https://web.facebook.com/romnick.sanjuan.3"><FaFacebook size={27} style={{
                 color: '#9BEC00',
                 margin: '0 10px'
@@ -86,6 +91,7 @@ function App() {
             <img className='image' src={me} alt="" />
           </div>
         </section>
+
         <section ref={aboutPage}>
           <About />
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/About.css'
-import me from '../image/me.jpg'
+import me from '../image/profile.jpeg'
 
 //tech stack
 import css from '../image/css.png'
@@ -23,7 +23,7 @@ const About = () => {
             <div className='about-main'>
                 <div className='sub-main'>
                     <div className='about-image'>
-                        <img style={{ height: 'auto', width: '80%', borderRadius: '50%' }}  src={me} alt="" />
+                        <img style={{ height: 'auto', width: '70%', borderRadius: '50%' }}  src={me} alt="" />
                     </div>
                     <div className='aboutme'>
                         <h2 className='about-me'>About Me</h2>

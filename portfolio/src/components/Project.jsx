@@ -5,8 +5,9 @@ import quiz_image from '../image/project-images/quiz-image.jpg'
 
 const Project = () => {
     return (
-        <div>
-            <div style={{ width: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',backgroundColor:'#2c2929', borderRadius:'5px',marginBottom:'20px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90%', padding:'20px',gap:'10px' }}>
+
+            <div style={{ alignItems: 'center', borderRadius: '10px', border: '2px solid #9BEC00', width: '50%' }}>
                 <div className='project-image'>
                     <img style={{ width: '250px', height: '500px' }} src={image_to_text} alt="" />
                 </div>
@@ -16,17 +17,15 @@ const Project = () => {
                         <h4 style={{ color: 'yellowgreen', marginBottom: '10px' }}>REACT NATIVE - ANDROID MOBILE APP</h4>
                         <h2 style={{ color: 'white', marginBottom: '10px' }}>IMAGE TO TEXT CONVERSION</h2>
 
-                        <p style={{ marginBottom: '10px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi culpa dolores mollitia,
-                            iste corporis asperiores quidem quam cumque cum,
-                            impedit facilis architecto rerum molestias eos ducimus voluptate nihil numquam laudantium.</p>
-
-                        <button className='explore-button'>EXPLORE PROJECT</button>
+                        <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
+                            <button className='explore-button'>EXPLORE PROJECT</button>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
-            <div style={{ width: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center', backgroundColor:'#2c2929', borderRadius:'5px' }}>
+            <div style={{ alignItems: 'center', borderRadius: '10px', border: '2px solid #9BEC00', width: '50%' }}>
                 <div className='project-image'>
                     <img style={{ width: '250px', height: '500px' }} src={quiz_image} alt="" />
                 </div>
@@ -36,11 +35,10 @@ const Project = () => {
                         <h4 style={{ color: 'yellowgreen', marginBottom: '10px' }}>REACT NATIVE - ANDROID MOBILE APP</h4>
                         <h2 style={{ color: 'white', marginBottom: '10px' }}>LEARN QUEST - QUIZ APP</h2>
 
-                        <p style={{ marginBottom: '10px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi culpa dolores mollitia,
-                            iste corporis asperiores quidem quam cumque cum,
-                            impedit facilis architecto rerum molestias eos ducimus voluptate nihil numquam laudantium.</p>
+                        <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
+                            <button className='explore-button'>EXPLORE PROJECT</button>
+                        </div>
 
-                        <button className='explore-button'>EXPLORE PROJECT</button>
                     </div>
                 </div>
 
