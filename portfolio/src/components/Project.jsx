@@ -2,8 +2,13 @@ import React from 'react'
 import '../css/Project.css'
 import image_to_text from '../image/project-images/image-to-text.jpg'
 import quiz_image from '../image/project-images/quiz-image.jpg'
+import ImgToTextExplore from './ImgToTextExplore'
+import { useNavigate } from 'react-router-dom'
 
 const Project = () => {
+    const navigate = useNavigate()
+
+
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90%', padding:'20px',gap:'10px' }}>
 
@@ -18,7 +23,7 @@ const Project = () => {
                         <h2 style={{ color: 'white', marginBottom: '10px' }}>IMAGE TO TEXT CONVERSION</h2>
 
                         <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
-                            <button className='explore-button'>EXPLORE PROJECT</button>
+                            <button onClick={() => navigate('/image-to-text-explore')} className='explore-button'>EXPLORE PROJECT</button>
                         </div>
                     </div>
                 </div>

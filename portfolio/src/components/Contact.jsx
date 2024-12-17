@@ -59,7 +59,7 @@ const Contact = () => {
         }}>Contact Me</h2>
 
         <div className='contact-main'>
-          <div style={{ width: '50%', padding: '50px 20px', backgroundColor: 'gray', borderRadius: '5px' }}>
+          <div style={{ width: '50%', padding: '50px 20px', backgroundColor: '#2c2929', borderRadius: '5px' }}>
             <p style={{ color: '#9BEC00', fontSize: '27px', marginLeft: '10px' }}>Let's work together</p>
             <div className='item-container'>
 
@@ -97,7 +97,7 @@ const Contact = () => {
             <div>
               <div style={{display:'flex', flexDirection:'row',marginBottom:'5px'}}>
                 <div style={{
-                  backgroundColor: 'gray', height: '40px', width: '40px', display: 'flex',
+                  backgroundColor: '#2c2929', height: '40px', width: '40px', display: 'flex',
                   justifyContent: 'center', alignItems: 'center', borderRadius: '5px',
                 }}>
                   < FaEnvelope size={25} style={{ color: '#9BEC00' }} />
@@ -112,7 +112,7 @@ const Contact = () => {
 
               <div style={{display:'flex', flexDirection:'row',marginBottom:'5px'}}>
                 <div style={{
-                  backgroundColor: 'gray', height: '40px', width: '40px', display: 'flex',
+                  backgroundColor: '#2c2929', height: '40px', width: '40px', display: 'flex',
                   justifyContent: 'center', alignItems: 'center', borderRadius: '5px'
                 }}>
                   < FaPhone size={25} style={{ color: '#9BEC00' }} />
@@ -127,7 +127,7 @@ const Contact = () => {
 
               <div style={{display:'flex', flexDirection:'row',marginBottom:'5px'}}>
                 <div style={{
-                  backgroundColor: 'gray', height: '40px', width: '40px', display: 'flex',
+                  backgroundColor: '#2c2929', height: '40px', width: '40px', display: 'flex',
                   justifyContent: 'center', alignItems: 'center', borderRadius: '5px'
                 }}>
                   <FaMapMarkerAlt size={25} style={{ color: '#9BEC00' }} />
