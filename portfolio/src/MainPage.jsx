@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import './App.css'
 
 import Typewriter from 'typewriter-effect'
-import { FaFacebook, FaInstagram, FaTiktok, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaBars } from 'react-icons/fa'
 
 import me from './image/profile.jpeg'
 
@@ -32,6 +32,11 @@ function MainPage() {
       <div>
         <header>
           <a href="#logo" className='logo'>Nick<span style={{ color: '#9BEC00' }}>.dev</span></a>
+
+          <div className="menu-icon">
+            <FaBars />
+          </div>
+
           <nav>
             <a id='home' href="#home" onClick={() => scrollToElement(home)}>Home</a>
             <a id='about' href="#about" onClick={() => scrollToElement(aboutPage)}>About</a>
