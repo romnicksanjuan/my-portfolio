@@ -10,22 +10,9 @@ import me from './image/profile.jpeg'
 
 import ImgToTextExplore from './components/ImgToTextExplore';
 import MainPage from './MainPage';
+import QuizAppExplore from './components/QuizAppExplore';
 function App() {
 
-  const home = useRef(null);
-  const aboutPage = useRef(null);
-  const project = useRef(null);
-  const contact = useRef(null);
-
-  const scrollToElement = (element) => {
-    element.current.scrollIntoView({
-      behavior: 'smooth'
-    })
-  };
-
-
-  // const texts = ['Programmer', 'Web Developer']
-  const texts = ['Programmer', 'Web Developer', 'Mobile Developer'];
 
   return (
     <>
@@ -33,6 +20,8 @@ function App() {
       <Routes>
         <Route path='/' element={<MainPage/>}/>
         <Route path='/image-to-text-explore' element={<ImgToTextExplore/>} />
+        <Route path='/quiz-app-explore' element={<QuizAppExplore/>} />
+
       </Routes>
       </Router>
     </>

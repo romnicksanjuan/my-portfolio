@@ -23,7 +23,7 @@ const Project = () => {
                         <h2 style={{ color: 'white', marginBottom: '10px' }}>IMAGE TO TEXT CONVERSION</h2>
 
                         <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
-                            <button onClick={() => navigate('/image-to-text-explore')} className='explore-button'>EXPLORE PROJECT</button>
+                            <button onClick={() => window.open('/image-to-text-explore', '_blank')} className='explore-button'>EXPLORE PROJECT</button>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Project = () => {
                         <h2 style={{ color: 'white', marginBottom: '10px' }}>LEARN QUEST - QUIZ APP</h2>
 
                         <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
-                            <button className='explore-button'>EXPLORE PROJECT</button>
+                            <button onClick={() => window.open('/quiz-app-explore','_blank')} className='explore-button'>EXPLORE PROJECT</button>
                         </div>
 
                     </div>

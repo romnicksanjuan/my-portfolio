@@ -77,6 +77,7 @@ const ImgToTextExplore = () => {
                                         width: '100%',
                                         height: '100%',
                                         borderRadius: '10px',
+                                        border:'1px solid black'
                                     }}
                                 />
                             </div>
@@ -99,7 +100,7 @@ const ImgToTextExplore = () => {
                 </div>
 
                 <div>
-                <h2 style={{textAlign:'center',color:'white',marginBottom:'20px'}}>Video Demonstration</h2>
+                <h2 style={{textAlign:'center',color:'white',marginBottom:'20px'}}>Video Demonstraion</h2>
                 <div style={{
                     display: 'flex',
                     justifyContent: 'center',
