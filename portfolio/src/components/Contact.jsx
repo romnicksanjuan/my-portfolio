@@ -59,7 +59,7 @@ const Contact = () => {
         }}>Contact Me</h2>
 
         <div className='contact-main'>
-          <div style={{ width: '50%', padding: '50px 20px', backgroundColor: '#2c2929', borderRadius: '5px' }}>
+          <div className='contact-form'>
             <p style={{ color: '#9BEC00', fontSize: '27px', marginLeft: '10px' }}>Let's work together</p>
             <div className='item-container'>
 

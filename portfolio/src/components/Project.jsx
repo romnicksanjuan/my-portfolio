@@ -6,21 +6,20 @@ import ImgToTextExplore from './ImgToTextExplore'
 import { useNavigate } from 'react-router-dom'
 
 const Project = () => {
-    const navigate = useNavigate()
 
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90%', padding:'20px',gap:'10px' }}>
+        <div className='project-main'>
 
-            <div style={{ alignItems: 'center', borderRadius: '10px', border: '2px solid #9BEC00', width: '50%' }}>
+            <div className='sub-container'>
                 <div className='project-image'>
                     <img style={{ width: '250px', height: '500px' }} src={image_to_text} alt="" />
                 </div>
 
                 <div className='project-container'>
                     <div className='project-inner-container'>
-                        <h4 style={{ color: 'yellowgreen', marginBottom: '10px' }}>REACT NATIVE - ANDROID MOBILE APP</h4>
-                        <h2 style={{ color: 'white', marginBottom: '10px' }}>IMAGE TO TEXT CONVERSION</h2>
+                        <h4 style={{ color: 'yellowgreen', marginBottom: '10px',textAlign:'center' }}>REACT NATIVE - ANDROID MOBILE APP</h4>
+                        <h2 style={{ color: 'white', marginBottom: '10px',textAlign:'center' }}>IMAGE TO TEXT CONVERSION</h2>
 
                         <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
                             <button onClick={() => window.open('/image-to-text-explore', '_blank')} className='explore-button'>EXPLORE PROJECT</button>
@@ -30,15 +29,15 @@ const Project = () => {
 
             </div>
 
-            <div style={{ alignItems: 'center', borderRadius: '10px', border: '2px solid #9BEC00', width: '50%' }}>
+            <div className='sub-container'>
                 <div className='project-image'>
                     <img style={{ width: '250px', height: '500px' }} src={quiz_image} alt="" />
                 </div>
 
                 <div className='project-container'>
                     <div className='project-inner-container'>
-                        <h4 style={{ color: 'yellowgreen', marginBottom: '10px' }}>REACT NATIVE - ANDROID MOBILE APP</h4>
-                        <h2 style={{ color: 'white', marginBottom: '10px' }}>LEARN QUEST - QUIZ APP</h2>
+                        <h4 style={{ color: 'yellowgreen', marginBottom: '10px',textAlign:'center' }}>REACT NATIVE - ANDROID MOBILE APP</h4>
+                        <h2 style={{ color: 'white', marginBottom: '10px',textAlign:'center' }}>LEARN QUEST - QUIZ APP</h2>
 
                         <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
                             <button onClick={() => window.open('/quiz-app-explore','_blank')} className='explore-button'>EXPLORE PROJECT</button>

@@ -1,7 +1,8 @@
-.about-main{
+.about-main {
     width: auto;
 }
-.sub-main{
+
+.sub-main {
     background: #2c2929;
     margin-top: 40px;
     padding: 20px;
@@ -11,33 +12,35 @@
     border-radius: 5px;
 }
 
-.about-image{
+.about-image {
     display: flex;
     justify-content: center;
 }
 
 .about-image,
 .aboutme {
-  height: auto;
-  width: 50%;
-  padding: 10px;
-  margin: 5px;
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
 }
-.skill-main{
+
+.skill-main {
     margin: 20px 0;
 }
 
-.skill{
+.skill {
     color: #9BEC00;
     margin-bottom: 15px;
 }
 
-.grid-container{
+.grid-container {
     display: flex;
     justify-content: center;
     margin: 10px 0;
 }
-.tech-stack{
+
+.tech-stack {
     padding: 10px 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -46,30 +49,66 @@
     width: 90%;
     place-items: center;
 }
-.images{
+
+.images {
     border: 1px solid gray;
     width: 160px;
 }
-li{
+
+li {
     list-style-type: none;
     width: 150px;
     display: flex;
     /* justify-content: center;
     align-items: center; */
-   
+
 }
 
-h4{
+h4 {
     margin: 11px 0 0 0;
     /* margin-top: 5px; */
     color: white;
 }
 
-.tech-tools{
+.tech-tools {
     color: #9BEC00;
 }
 
-.about-me, .what-i-do{
+.about-me,
+.what-i-do {
     color: #9BEC00;
 }
 
+
+/* mobile size */
+@media screen and (max-width: 426px) {
+
+    .about-main {
+        width: auto;
+    }
+    
+    .sub-main {
+        background: #2c2929;
+        margin-top: 40px;
+        padding: 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    .about-image {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-image,
+    .aboutme {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+   
+}
