@@ -62,4 +62,16 @@
         border: 2px solid #9BEC00;
         width: 100%
     }
+
+    .explore-button {
+        width: 150px;
+        height: 30px;
+        background-color: rgb(102, 153, 0);
+        border: none;
+        color: white;
+        font-size: 12px;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
