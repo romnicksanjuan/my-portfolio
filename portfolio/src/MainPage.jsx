@@ -1,8 +1,8 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import './App.css'
 
 import Typewriter from 'typewriter-effect'
-import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaBars } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaBars, FaTimes } from 'react-icons/fa'
 
 import me from './image/profile.jpeg'
 
@@ -11,6 +11,8 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 function MainPage() {
+
+  const [isOpen, setIsOpen] = useState(false)
 
   const home = useRef(null);
   const aboutPage = useRef(null);
@@ -23,6 +25,8 @@ function MainPage() {
     })
   };
 
+  const toggleButton = () => setIsOpen(!isOpen)
+
 
   // const texts = ['Programmer', 'Web Developer']
   const texts = ['Programmer', 'Web Developer', 'Mobile Developer'];
@@ -33,9 +37,21 @@ function MainPage() {
         <header>
           <a href="#logo" className='logo'>Nick<span style={{ color: '#9BEC00' }}>.dev</span></a>
 
-          <div className="menu-icon">
-            <FaBars />
+          <div className="menu-icon" onClick={toggleButton}>
+            {!isOpen ? <FaBars size={24} /> : ''}
           </div>
+
+          <nav className={`menu ${isOpen ? 'open' : ''}`} onClick={toggleButton}>
+            <div className='times-icon'>
+              {isOpen ? <FaTimes size={24}/> : ''}
+            </div>
+            <ul>
+              <li><a href="#home" onClick={() => scrollToElement(home)}>Home</a></li>
+              <li><a href="#about" onClick={() => scrollToElement(aboutPage)}>About</a></li>
+              <li><a href="#project" onClick={() => scrollToElement(project)}>Project</a></li>
+              <li><a href="#contact" onClick={() => scrollToElement(contact)}>Contact</a></li>
+            </ul>
+          </nav>
 
           <nav>
             <a id='home' href="#home" onClick={() => scrollToElement(home)}>Home</a>

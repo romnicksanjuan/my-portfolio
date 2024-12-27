@@ -259,4 +259,52 @@ header nav #home:hover,
     background-color: #9BEC00;
     color: #000000;
   }
+
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 290px;
+    height: 100%;
+    /* background-color: #111010; */
+    background-color: rgba(0, 0, 0, 0.888);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+    margin-right: 0;
+    /* opacity: 0.50; */
+  }
+  
+  .menu.open {
+    right: 0;
+  }
+
+  .times-icon {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .menu ul li a:hover {
+    color: yellowgreen;
+  }
 }
