@@ -67,10 +67,17 @@
     }
 
     .sub-container {
+        width: 100%;
         align-items: center;
         border-radius: 10px;
         border: 2px solid #9BEC00;
-        width: 100%
+    }
+
+    .web-container {
+        width: 100%;
+        align-items: center;
+        border-radius: 10px;
+        border: 2px solid #9BEC00;
     }
 
     .explore-button {
