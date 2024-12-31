@@ -115,15 +115,6 @@ function MainPage() {
           <div className="image-container">
             <img className='image' src={me} alt="" />
           </div>
-
-          <div style={{
-            backgroundColor: 'red', width: '400px', display: 'flex',
-            justifyContent: 'center'
-          }}>
-            <img style={{
-              width: '100%', height: 'auto', padding: '0', margin: '0'
-            }} src={me} alt="" />
-          </div>
         </section >
 
         <section ref={aboutPage}>
