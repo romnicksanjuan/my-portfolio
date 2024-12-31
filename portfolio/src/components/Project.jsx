@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Project.css'
+import '../css/mobile/mobile-size-project.css'
 import image_to_text from '../image/project-images/image-to-text.jpg'
 import quiz_image from '../image/project-images/quiz-image.jpg'
 

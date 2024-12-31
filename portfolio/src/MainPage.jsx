@@ -14,6 +14,8 @@ function MainPage() {
 
   const [isOpen, setIsOpen] = useState(false)
 
+  console.log(!isOpen)
+
   const home = useRef(null);
   const aboutPage = useRef(null);
   const project = useRef(null);
