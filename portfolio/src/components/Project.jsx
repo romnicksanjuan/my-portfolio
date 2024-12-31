@@ -76,7 +76,7 @@ const Project = () => {
                                 <h2 style={{ color: 'white', marginBottom: '10px', textAlign: 'center', fontSize: '15px' }}>POINT OF SALE</h2>
 
                                 <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <button onClick={() => window.open('/', '_blank')} className='explore-button'>EXPLORE PROJECT</button>
+                                    <button onClick={() => window.open('https://point-of-sale-teal.vercel.app/', '_blank')} className='explore-button'>EXPLORE PROJECT</button>
                                 </div>
                             </div>
                         </div>
