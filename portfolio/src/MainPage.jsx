@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaBars, FaTimes } from 'r
 
 import me from './image/profile.jpeg'
 
-
+import img from './image/web-images/pos-image.png'
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
@@ -43,7 +43,7 @@ function MainPage() {
 
           <nav className={`menu ${isOpen ? 'open' : ''}`} onClick={toggleButton}>
             <div className='times-icon'>
-              {isOpen ? <FaTimes size={24}/> : ''}
+              {isOpen ? <FaTimes size={24} /> : ''}
             </div>
             <ul>
               <li><a href="#home" onClick={() => scrollToElement(home)}>Home</a></li>
@@ -62,6 +62,7 @@ function MainPage() {
         </header>
 
         <section ref={home}>
+
           <div className="name">
             <h2 className='intro'>Hi, its Romnick San Juan</h2>
             <h1 className='texts'>
@@ -74,6 +75,9 @@ function MainPage() {
                 }}
               />
             </h1>
+
+
+
             <p>
               I am a passionate web and mobile developer with over 1 year of
               experience in building scalable applications. I specialize in React
@@ -111,7 +115,16 @@ function MainPage() {
           <div className="image-container">
             <img className='image' src={me} alt="" />
           </div>
-        </section>
+
+          <div style={{
+            backgroundColor: 'red', width: '400px', display: 'flex',
+            justifyContent: 'center'
+          }}>
+            <img style={{
+              width: '100%', height: 'auto', padding: '0', margin: '0'
+            }} src={me} alt="" />
+          </div>
+        </section >
 
         <section ref={aboutPage}>
           <About />
@@ -123,7 +136,7 @@ function MainPage() {
         <section ref={contact}>
           <Contact />
         </section>
-      </div>
+      </div >
     </>
   )
 }

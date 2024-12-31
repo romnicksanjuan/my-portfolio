@@ -49,17 +49,14 @@ nav a {
 }
 
 section {
-  /* max-height: 1200px; */
-  /* Just for demonstration */
   background: #000000;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  /* margin-top: 20px; */
 }
 
 .menu-icon {
@@ -135,6 +132,12 @@ header nav #home:hover,
 #contact:hover {
   background-color: #9BEC00;
   color: #000000;
+}
+
+
+
+.menu {
+  display: none;
 }
 
 
@@ -277,7 +280,7 @@ header nav #home:hover,
     margin-right: 0;
     /* opacity: 0.50; */
   }
-  
+
   .menu.open {
     right: 0;
   }
@@ -287,23 +290,23 @@ header nav #home:hover,
     top: 20px;
     right: 10px;
   }
-  
+
   .menu ul {
     list-style: none;
     padding: 0;
   }
-  
+
   .menu ul li {
     margin: 1rem 0;
     text-align: center;
   }
-  
+
   .menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
   }
-  
+
   .menu ul li a:hover {
     color: yellowgreen;
   }
