@@ -32,6 +32,19 @@
     margin-top: 20px;
 }
 
+
+.mobile-image {
+    width: 80%;
+    height: auto;
+}
+
+.web-image {
+    width: 90%;
+    height: auto;
+    padding: 0;
+    margin: 0
+}
+
 .project-container {
     display: flex;
     align-items: center;
@@ -78,6 +91,29 @@
         align-items: center;
         border-radius: 10px;
         border: 2px solid #9BEC00;
+    }
+
+    .project-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .mobile-image {
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .web-image {
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
     }
 
     .explore-button {

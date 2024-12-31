@@ -17,7 +17,7 @@ const Project = () => {
 
                 <div className='sub-container'>
                     <div className='project-image'>
-                        <img style={{width: '80%', height: 'auto' }} src={image_to_text} alt="" />
+                        <img className='mobile-image' src={image_to_text} alt="" />
                     </div>
 
                     <div className='project-container'>
@@ -35,7 +35,7 @@ const Project = () => {
 
                 <div className='sub-container'>
                     <div className='project-image'>
-                        <img style={{ width: '80%', height: 'auto' }} src={quiz_image} alt="" />
+                        <img className='mobile-image' src={quiz_image} alt="" />
                     </div>
 
                     <div className='project-container'>
@@ -59,7 +59,7 @@ const Project = () => {
 
                 <div className='web-container'>
                     <div className='project-image'>
-                        <img style={{ width: '90%', height: 'auto', padding:'0',margin:'0' }} src={pos_image} alt="" />
+                        <img className='web-image' src={pos_image} alt="" />
                     </div>
 
                     <div className='project-container'>
