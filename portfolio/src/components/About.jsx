@@ -21,6 +21,7 @@ const About = () => {
     return (
         <>
             <div className='about-main'>
+            <h2 style={{color:'#9BEC00'}}>ABOUT</h2>
                 <div className='sub-main'>
                     <div className='about-image'>
                         <img style={{ height: 'auto', width: '70%', borderRadius: '50%' }}  src={me} alt="" />

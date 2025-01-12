@@ -11,6 +11,7 @@ import me from './image/profile.jpeg'
 import ImgToTextExplore from './components/ImgToTextExplore';
 import MainPage from './MainPage';
 import QuizAppExplore from './components/QuizAppExplore';
+import Test from './components/Test';
 function App() {
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/image-to-text-explore' element={<ImgToTextExplore/>} />
         <Route path='/quiz-app-explore' element={<QuizAppExplore/>} />
 
+        <Route path='/test' element={<Test/>} />
       </Routes>
       </Router>
     </>
