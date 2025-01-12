@@ -17,7 +17,7 @@
     }
 
     .sub-container {
-        width: 100%;
+        width: 90%;
         /* height: 400px; */
         align-items: center;
         border-radius: 10px;
@@ -44,7 +44,7 @@
 
     .mobile-image {
         width: 100%;
-        max-height: 400px;
+        max-height: 350px;
         /* height: 400px; */
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
@@ -86,11 +86,11 @@
     .left-icon .left {
         font-size: 20px;
     }
-    
+
     .right-icon {
         background-color: rgb(215, 215, 215);
         position: absolute;
-        top:50%;
+        top: 50%;
         transform: translateY(-50%);
         right: 0;
     }
@@ -98,14 +98,47 @@
     .right-icon .right {
         font-size: 20px;
     }
+
+    .react-native {
+        color: yellowgreen;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .web-project-title {
+        color: white;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 9px;
+    }
+
+    .explore-button {
+        width: 130px;
+        height: 25px;
+        background-color: rgb(102, 153, 0);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 9px;
+    }
 }
 
 
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    /* .sub-container {
+        align-items: center;
+        border-radius: 10px;
+        border: 2px solid #9BEC00;
+        height: auto;
+        margin: 10px 0 0 0;
+    } */
     .project-image {
-        width: 100%;
+        min-width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -115,8 +148,87 @@
 
     .mobile-image {
         width: 90%;
+       
         height: auto;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+    }
+
+
+    .react-native {
+        color: yellowgreen;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 11px;
+    }
+    
+    .web-project-title {
+        color: white;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .explore-button {
+        width: 130px;
+        height: 25px;
+        background-color: rgb(102, 153, 0);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+
+    .project-image {
+        height: auto;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        margin-top: 0;
+    }
+
+    .mobile-image {
+        width: 90%;
+        min-width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+    .react-native {
+        color: yellowgreen;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .web-project-title {
+        color: white;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .explore-button {
+        width: 130px;
+        height: 25px;
+        background-color: rgb(102, 153, 0);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 9px;
     }
 }

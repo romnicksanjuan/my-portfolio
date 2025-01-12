@@ -24,6 +24,21 @@
     margin: 10px 0 0 0;
 }
 
+
+.react-native {
+    color: yellowgreen;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.web-project-title {
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
 .web-container {
     min-width: 100%;
     /* width: 60%; */
@@ -119,9 +134,11 @@
     top: 50%;
     transform: translateY(-50%);
     left: 0;
+    display: flex;
+    align-items: center;
 }
 
-.left-icon .left{
+.left-icon .left {
     font-size: 30px;
 }
 
@@ -131,8 +148,10 @@
     top: 50%;
     transform: translateY(-50%);
     right: 0;
+    display: flex;
+    align-items: center;
 }
 
-.right-icon .right{
+.right-icon .right {
     font-size: 30px;
 }
